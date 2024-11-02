@@ -2,25 +2,51 @@
   "projects": [
     {
       "id": "2901",
-      "name": "teste1",
-      "budget": "45000",
+      "name": "teste 5",
+      "budget": "7000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "3",
+        "name": "Design"
       },
-      "cost": 0,
-      "services": []
+      "cost": 200,
+      "services": [
+        {
+          "name": "Meu novo serviço",
+          "cost": "100",
+          "description": "Faz isso aqui",
+          "id": "d307304d-d541-4961-90ee-150c69b2c074"
+        },
+        {
+          "name": "AAA",
+          "cost": "100",
+          "description": "asdaaa",
+          "id": "3656110f-4b33-4bc5-9b5b-9044d0be1176"
+        }
+      ]
     },
     {
       "id": "ba55",
       "name": "teste3",
-      "budget": "12000",
+      "budget": "900",
       "category": {
-        "id": "4",
-        "name": "Planejamento"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": []
+      "cost": 600,
+      "services": [
+        {
+          "name": "Contratar Dev PHP",
+          "cost": "500",
+          "description": "Vai criar a função de envio de emails",
+          "id": "6180ff2e-80e6-48ca-92b2-376e8df18035"
+        },
+        {
+          "name": "Nov Serviço",
+          "cost": "100",
+          "description": "Teste",
+          "id": "08765ce4-0ccc-4858-97f8-e61166445313"
+        }
+      ]
     }
   ],
   "categories": [
